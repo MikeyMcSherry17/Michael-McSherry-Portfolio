@@ -1,0 +1,88 @@
+/* Base Reset and Font */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #222;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0d1117;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #c9d1d9;
+  }
+  
+  nav {
+    background: #161b22;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    margin: 0 1.5rem;
+  }
+  nav ul li a {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  nav ul li a:hover {
+    color: #58a6ff;
+  }
+  
+  /* Main Content */
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Card Layout */
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .card h2 {
+    color: #01395c;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Highlights */
+  .highlight {
+    font-weight: 600;
+    color: #111;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background-color: #f1f1f1;
+    color: #555;
+  }
+  
