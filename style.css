@@ -26,6 +26,7 @@ body {
     color: #c9d1d9;
   }
   
+  /* Header */
   nav {
     background: #161b22;
     padding: 1rem;
@@ -48,7 +49,7 @@ body {
   nav ul li a:hover {
     color: #58a6ff;
   }
-  
+
   /* Main Content */
   section {
     padding: 2rem;
